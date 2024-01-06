@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* Light text color */
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; Prevent scrolling */
+    height: 100vh; /* Set the body height to match the viewport height */
+}
+
+
+#content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#human-body {
+    max-width: 70vw; 
+    max-height: 70vh; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+#discomfort-level-input {
+    margin: 20px 0;
+}
+
+#discomfort-level-input label {
+    color: #fff; 
+}
+
+#discomfort-level {
+    background-color: #333;
+}
+
+#submit-button {
+    background-color: #1a73e8; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #1565c0;
+}
+
+#diagnosis-results {
+    margin-top: 20px;
+    border: 1px solid #444; 
+    padding: 20px;
+    background-color: #1e1e1e; 
+}
+
+/* Popup Box Styles */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    color: #000;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Highlight style */
+.highlight {
+    background-color: purple; 
+    /* opacity: 0.6;Or any highlight color you prefer */
+}
