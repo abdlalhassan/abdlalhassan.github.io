@@ -28,15 +28,15 @@ const diagnoses = {
         2: 'Limb Selected:\n Moderate knee pain (e.g., from meniscus tear), varicose veins.',
         3: 'Limb Selected:\n Deep vein thrombosis, fractures.'
     },
-    'Handr': {
-        1: 'Hand Selected:\n Mild strain, minor cuts',
-        2: 'Hand Selected:\n Carpal tunnel syndrome, moderate sprains.',
-        3: 'Hand Selected:\n Fractures, severe burns.'
+    'Armr': {
+        1: 'Arm Selected:\n Mild strain, minor cuts',
+        2: 'Arm Selected:\n Carpal tunnel syndrome, moderate sprains.',
+        3: 'Arm Selected:\n Fractures, severe burns.'
     },
-    'Handl': {
-        1: 'Hand Selected:\n Mild strain, minor cuts',
-        2: 'Hand Selected:\n Carpal tunnel syndrome, moderate sprains.',
-        3: 'Hand Selected:\n Fractures, severe burns.'
+    'Arml': {
+        1: 'Arm Selected:\n Mild strain, minor cuts',
+        2: 'Arm Selected:\n Carpal tunnel syndrome, moderate sprains.',
+        3: 'Arm Selected:\n Fractures, severe burns.'
     }
 };
 
